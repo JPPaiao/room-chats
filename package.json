@@ -1,0 +1,25 @@
+{
+  "name": "chatweb",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon --exec tsnd src/server.ts",
+    "build": "tsc",
+    "start": "tsc && node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/socket.io": "^3.0.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
